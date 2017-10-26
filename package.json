@@ -1,0 +1,27 @@
+{
+  "name": "humanized",
+  "version": "1.0.0",
+  "description": "Human view on web pages.",
+  "main": "build/app/app.js",
+  "scripts": {
+    "test": "mocha --recursive -r ts-node/register src/test/**/*.ts src/test/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okep/empty.git"
+  },
+  "keywords": [
+  ],
+  "homepage": "https://github.com/okep/humanized#readme",
+  "devDependencies": {
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.28",
+    "assert": "^1.4.1",
+    "mocha": "^3.5.3",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "@types/core-js": "^0.9.43"
+  }
+}
